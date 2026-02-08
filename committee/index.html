@@ -2,17 +2,27 @@
 <html lang='en'>
 
 <head>
-    <base href="..">
+    <base href=".">
     <link rel="shortcut icon" type="image/png" href="assets/matrix-12-32.png"/>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default">
-    </script>
-    <meta name="description" content="Conference Template">
+    <meta name="description" content="AusCTW Conference Website built on Mike Pierce Template">
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
-    <title>Committee|AusCTW</title>
+    <title>AusCTW 2026</title>
+
+    <!--  The following is to try to prevent header wrap causing overlap when windows are resized-->
+    <style>
+                h2 {
+                    line-height: 1.25; /* Unitless value, relative to font-size */
+                }
+    </style>
+
+    <style>
+        .nav-link {
+                    margin-right: 16px;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +30,7 @@
     <div class="banner">
         <img src="assets/aerial-view-of-hagley-park-to-the-sea_Cropped.png" alt="Christchurch Aerial">
         <div class="top-left">
-            <span class="title1">AusCTW</span><span class="title2"> </span> <span class="year">2026</span>
+            <span class="title1">AusCTW</span><span class="title2"> </span> <span class="year"> </span>
         </div>
         <div class="bottom-right">
             Feb 2-4, 2026 <br> University of Canterbury, Christchurch, New Zealand
@@ -30,34 +40,35 @@
     <table class="navigation">
         <tr>
             <td class="navigation">
-                <a title="Conference Home Page" href=".">Home</a>
+                <a class="current" title="Conference Home Page" href="." class="nav-link">Home&nbsp;</a>
             </td>
             <td class="navigation">
-                <a title="Register for the Conference" href="registration">Registration</a>
+                <a title="Register for the Conference" href="registration" class="nav-link">Registration</a>
             </td>
             <td class="navigation">
-                <a title="Conference Programme" href="programme">Programme</a> 
+                <a title="Conference Programme" href="programme" class="nav-link">Programme</a> 
             </td>
             <td class="navigation">
-                <a title="Venue" href="venue">Venue</a>
+                <a title="Venue" href="venue" class="nav-link">Venue</a>
             </td>
             <td class="navigation">
-                <a title="Call For Papers" href="CFP">CFP</a>
+                <a title="Paper Call" href="CFP" class="nav-link">Paper Call</a>
             </td>
             <td class="navigation">
-                <a class="current" title="Committee" href="committee">Committee</a>
+                <a title="Committee" href="committee" class="nav-link">Committee</a>
+            </td>
+            <td class="navigation">
+                <a title="Previous" href="http://www.ausctw.org/AusCTW2026" class="nav-link">Previous</a>
             </td>
         </tr>
     </table>
 
+
+
+
     <h2>Conference Committees</h2>
 
-    <!--
-     <p> We are a small team at the University of Canterbury and we need your help to make this workshop a success- 
-        please consider nominating yourself to help with a committee position, or otherwise.
-        <a href="mailto:ausctw@gmail.com?subject=[AusCTW2026 volunteer]">Get in touch!</a>. 
-    </p>
--->
+
     
 <div className="text-start text-lg-center">
   <h1 style="font-size:2em;" className="title purple">
@@ -68,54 +79,39 @@
 <dl class="row">
   <dt class="col-sm-6 text-lg-end text-center" ><p><b>General Chair</b></p></dt>
   <dd class="col-sm-6 text-lg-start text-center">
-    <p>Dr. Graeme Woodward  (<em>Wireless Research Centre, University of Canterbury, Christchurch, New Zealand</em>)</p>
+    <p>Dr. Doctor  (<em> Centre, University of , City, Country</em>)</p>
   </dd>
 
- <!--
-   <dt class="col-sm-6 text-lg-end text-center" ><p><b>Co-Chairs</b></p></dt>
-  <dd class="col-sm-6 text-lg-start text-center">
-    <p>Your name  (<em>University, Australia</em>)</p>
-    <p>Your friend  (<em>, Australia</em>)</p>
-   </dd>
 
-   <dt class="col-sm-6 text-lg-end text-center" ><p><b>Publicity Chair</b></p></dt>
-  <dd class="col-sm-6 text-lg-start text-center">
-    <p> (<em> University, Australia</em>)</p>
-   </dd>
--->
 
   <dt class="col-sm-6 text-lg-end text-center" ><p><b>Local arrangements Co-chairs</b></p></dt>
   <dd class="col-sm-6 text-lg-start text-center">
-    <p>A/Prof Barry Wu (<em>University of Canterbury, Christchurch, New Zealand</em>)</p>
-    <p>Ms Mel Lloyd  (<em>University of Canterbury, Christchurch, New Zealand</em>)</p>
+
   </dd>
 
   <dt class="col-sm-6 text-lg-end text-center" ><p><b>Local arrangements</b></p></dt>
   <dd class="col-sm-6 text-lg-start text-center">
-   <!--   <p>Dr. Gayathri Kongara (<em>Monash University, Melbourne, Australia.</em>)</p>   -->
-    <p>Dr. Rifat Afroz (<em>University of Canterbury, Christchurch, New Zealand</em>)</p>
+
   </dd>
 
   <dt class="col-sm-6 text-lg-end text-center" ><p><b>Finance Co-Chair</b></p></dt>
   <dd class="col-sm-6 text-lg-start text-center">
-    <p>Ms Annie McEwin (<em>Faculty of Engineering, University of Canterbury, Christchurch, NZ</em>)</p>
+
   </dd>
 
   <dt class="col-sm-6 text-lg-end text-center" ><p><b>Sponsorship Chair</b></p></dt>
   <dd class="col-sm-6 text-lg-start text-center">
-    <p>Mr. Fred Samandari (<em>Wireless Research Centre, University of Canterbury, Christchurch, NZ</em>)</p>
+
   </dd>
 
   <dt class="col-sm-6 text-lg-end text-center" ><p><b>Publicity</b></p></dt>
   <dd class="col-sm-6 text-lg-start text-center">
-    <p>Dr William Liu (<em>Wuhan University of Communications, China</em>)</p>
-    <p>Ms Mel Lloyd  (<em>University of Canterbury, Christchurch, New Zealand</em>)</p>
+
   </dd>
 
   <dt class="col-sm-6 text-lg-end text-center" ><p><b>Website Team</b></p></dt>
   <dd class="col-sm-6 text-lg-start text-center">
-    <p> Isaac Buhler (<em>Victoria University, Wellington, NZ</em>)</p>
-    <p> Jaden Chen (<em>Curtin University, Perth, Australia</em>)</p>
+
   </dd>
 
 <div className="text-start text-lg-center">
@@ -127,14 +123,8 @@
 <div className="row">
   <div className="col-1 col-sm-1 col-md-2 col-lg-4"></div>
   <div className="text-start col-11 col-sm-11 col-md-10 col-lg-8">
-   <p>Dr. Adriel Kind (<em>Wireless Research Centre, University of Canterbury, Christchurch, New Zealand</em>)</p>
-   <p>Dr. Akram Shafie (<em>University of New South Wales, Sydney, Australia</em>)</p>
-   <p>Prof. Peter Smith (<em>Victoria University of Wellington, Wellington, NZ</em>)</p>
-   <p>Dr Himal A. Suraweera (<em>University of Peradeniya, Sri Lanka</em>)</p>
-    <!--
-       <p>abc def (<em>University of Technology, Sydney, Australia</em>)</p>
-    <p>xyz (<em>Macquarie University, Australia</em>), </p>
-    --> 
+   <p>Dr. Name (<em>University of , Country</em>)</p>
+
   </div>
 
 </dl>
@@ -165,7 +155,10 @@
 </div>
 
  <footer>
-        &nbsp;|&nbsp; AusCTW2026 &nbsp;|&nbsp; General conference chair <a href="https://profiles.canterbury.ac.nz/Graeme-Woodward">Graeme Woodward</a>   
+        &nbsp;|&nbsp; AusCTW &nbsp;|&nbsp; 
+        <!--
+        General conference chair <a href="https://university.web.site/personal.home.page">Name Name</a>   
+        -->
         &nbsp;|&nbsp; 
 </footer>
 
