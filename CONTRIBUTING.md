@@ -1,1 +1,1 @@
-Focus on simplicity and brevity over splendor and sophistication
+Simple conference website, based upon https://mikepierce.github.io/conference-website-template/
